@@ -1,0 +1,25 @@
+# About 
+This is a web app that allows speedcubers to practice (Speecubing refers to the practice of solving Rubik's cubes as fast as possible). It was created as an extension of my CPSC 210 term project, where additional details can be found on my Learning-Java repository, such as the user stories. The primary features of this app are: 
+- The ability to create and register new users
+- The ability for each user to create new practice sessions
+- The ability for each user to add solves to their practice sessions, with each solve represented by a scramble and a solve time
+- The ability to have your solve splits diagnosed: This means that you record the time it takes you to do each step of solving the cube (Assuming you use the standard CFOP method), and app will identify your areas of improvement based on which spits are taking longer than optimal, referencing your total time (Denoting your overal skill level)
+- The ability for you to receive a practice schedule based on your areas of improvement (By taking the times you are free to practice and what skills you want to incorporate into your practice beyond standard solves, the app procures a custom practice schedule)
+
+## Notes
+- The model and persistence packages are taken directly from my term project.
+- The rest was created using AI-assisted development. Tech stack includes Spring Boot for the backend and React with Vite for the frontend. As of this commit, I am currently learning React with Vite.
+- In the original term project, the custom practice schedule feature used math to divide the total time available by the number of skills to work on, then distributed those times across each day of the week. I found that this was quite a crude method, and decided that for this project, I would replace it with an API call to Gemini. As a result, the practice times are more structured and include variation (Meaning that you cycle through your areas of improvement rather than only working one skill for a few days, then moving on to the next)
+
+## Setup Instructions 
+This app has not yet been deployed. To run locally, download the repository, and then:
+- Start the backend by inputting these commands into a bash terminal:
+"cd backend"
+"./mvnw sprint-boot:run"
+- Start the frontend with:
+"cd frontend"
+"npm install"
+"npm run dev"
+- This project requires a Gemini API key. Create a .env file and add:
+"GEMINI_API_KEY=your_api_key_here"
+To get one for free, you can use Google AI studio. 

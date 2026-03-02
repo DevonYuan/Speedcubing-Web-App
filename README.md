@@ -13,13 +13,8 @@ This is a web app that allows speedcubers to practice (Speecubing refers to the 
 
 ## Setup Instructions 
 This app has not yet been deployed. To run locally, download the repository, and then:
-- Start the backend by inputting these commands into a bash terminal:
-"cd backend"
-"./mvnw sprint-boot:run"
-- Start the frontend with:
-"cd frontend"
-"npm install"
-"npm run dev"
+- Start the backend by inputting these commands into a bash terminal: "cd backend", "./mvnw sprint-boot:run"
+- Start the frontend with: "cd frontend", "npm install", "npm run dev"
 - This project requires a Gemini API key. Create a .env file and add:
 "GEMINI_API_KEY=your_api_key_here"
 To get one for free, you can use Google AI studio. 

@@ -18,3 +18,17 @@ This app has not yet been deployed. To run locally, download the repository, and
 - This project requires a Gemini API key. Create a .env file and add:
 "GEMINI_API_KEY=your_api_key_here"
 To get one for free, you can use Google AI studio. 
+
+# Demos in Order
+As this app has not been deployed yet, here are some videos that demonstate the app in action (Locally hosted). Note that the second video has its speed doubled. 
+
+https://github.com/user-attachments/assets/6d35d29e-f3df-4e69-8ad3-51583914de16
+
+
+https://github.com/user-attachments/assets/e4b9ccd6-4dd6-4e10-9237-d0893066f33b
+
+
+https://github.com/user-attachments/assets/1f5cb38c-2b03-420b-9a26-987c7b206fc9
+
+
+
